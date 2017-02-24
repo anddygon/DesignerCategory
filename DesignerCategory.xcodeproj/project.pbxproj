@@ -14,6 +14,7 @@
 		E1C8949A1E6080C100CB884A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C894981E6080C100CB884A /* Main.storyboard */; };
 		E1C8949C1E6080C100CB884A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C8949B1E6080C100CB884A /* Assets.xcassets */; };
 		E1C8949F1E6080C100CB884A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C8949D1E6080C100CB884A /* LaunchScreen.storyboard */; };
+		E1C894A91E60834200CB884A /* CTMediator+CTMediator_Designer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C894A81E60834200CB884A /* CTMediator+CTMediator_Designer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		E1C8949B1E6080C100CB884A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C8949E1E6080C100CB884A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1C894A01E6080C100CB884A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C894A71E60834200CB884A /* CTMediator+CTMediator_Designer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+CTMediator_Designer.h"; path = "Classes/CTMediator+CTMediator_Designer.h"; sourceTree = "<group>"; };
+		E1C894A81E60834200CB884A /* CTMediator+CTMediator_Designer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+CTMediator_Designer.m"; path = "Classes/CTMediator+CTMediator_Designer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 		E1C894A61E6081FB00CB884A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E1C894A71E60834200CB884A /* CTMediator+CTMediator_Designer.h */,
+				E1C894A81E60834200CB884A /* CTMediator+CTMediator_Designer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C894A91E60834200CB884A /* CTMediator+CTMediator_Designer.m in Sources */,
 				E1C894971E6080C100CB884A /* ViewController.m in Sources */,
 				E1C894941E6080C100CB884A /* AppDelegate.m in Sources */,
 				E1C894911E6080C100CB884A /* main.m in Sources */,
@@ -395,6 +401,7 @@
 				E1C894A51E6080C100CB884A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
