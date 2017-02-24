@@ -11,7 +11,7 @@
 @implementation CTMediator (CTMediator_Designer)
 
 -(UIViewController *)designerViewController {
-    return [self performTarget:@"A" action:@"designerViewController" params:nil shouldCacheTarget:false];
+    return [self performTarget:@"Designer" action:@"designerViewController" params:nil shouldCacheTarget:false];
 }
 
 @end
