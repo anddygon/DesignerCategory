@@ -10,8 +10,8 @@
 
 @implementation CTMediator (CTMediator_Designer)
 
--(UIViewController *)designerViewController {
-    return [self performTarget:@"Designer" action:@"designerViewController" params:nil shouldCacheTarget:false];
+-(nullable UIViewController *)designerViewController {
+    return [self performTarget:@"Designer" action:@"designerViewController" params:nil shouldCacheTarget:NO];
 }
 
 @end
